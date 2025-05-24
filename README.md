@@ -2,7 +2,6 @@
 # 🎮 Programación de Videojuegos I - TDPV_ProgrVJ_I
 
 **Programación de Videojuegos 1 - UNL FICH**  
-🚀 *Desarrollado en SFML*  
 
 ## 📌 Descripción
 
