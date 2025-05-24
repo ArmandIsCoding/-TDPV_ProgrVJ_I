@@ -40,7 +40,7 @@ Este proyecto es parte de la materia *Programación de Videojuegos 1* de la **Un
 
 
 ## 📂 Estructura de Archivos
-
+```
 📁 Proyecto
 │── 🎨 assets/
 │     ├── spritesheet.png
@@ -48,7 +48,7 @@ Este proyecto es parte de la materia *Programación de Videojuegos 1* de la **Un
 │── 📜 Afichmation.h
 │── 📜 main.cpp
 │── 📜 README.md
-
+```
 
 ## 📝 Instalación y Uso
 
