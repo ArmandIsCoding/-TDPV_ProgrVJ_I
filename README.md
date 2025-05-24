@@ -23,7 +23,7 @@ Este proyecto es parte de la materia *Programación de Videojuegos 1* de la **Un
 
 - 🖥️ **SFML** - Biblioteca para gráficos y animaciones  
 - 🔗 **C++** - Lenguaje de programación  
-- 🎨 **Afichmation** - Manejador de animaciones, clase provista por la cátedra 
+- 🎨 **Afichmation** - Manejador de animaciones, clase provista por la cátedra. Créditos: https://github.com/nicolastuka/Afichmation 
 
 ## ⚡ Controles (no todos implementados aún)
 
