@@ -7,6 +7,7 @@ int main(int argc, char* argv[]) {
 	RenderWindow* w = new RenderWindow(VideoMode(800, 600), "Unidad 1 - Plan de Trabajo 2");
 	w->setFramerateLimit(60);
 
+	// Los niveles (alturas en el eje Y de abajo hacia arriba, mayor a menor).
 	float groundLevels[] = { 495, 420, 345, 270, 195, 120, 40 };
 	const int totalNiveles = sizeof(groundLevels) / sizeof(float);
 	int nivelActual = 0;
@@ -26,12 +27,11 @@ int main(int argc, char* argv[]) {
 	while (w->isOpen()) {
 		Event e;
 		while (w->pollEvent(e)) {
-			if (e.type == Event::Closed)
-				w->close();
+			if (e.type == Event::Closed) { w->close(); }
 
 			// Detecto el salto solo UNA VEZ por tecla presionada
 			if (e.type == Event::KeyPressed && e.key.code == Keyboard::Space) {
-				if (nivelActual + 1 < totalNiveles) { // Sin esto nos vamos del array. Todo explota. La economía colapsa.
+				if (nivelActual + 1 < totalNiveles) { // Sin esto nos vamos del array. Todo explota.
 					nivelActual++;
 					characterAnim.setPosition(characterAnim.getPosition().x, groundLevels[nivelActual]);
 				}
