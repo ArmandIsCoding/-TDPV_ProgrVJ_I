@@ -29,9 +29,9 @@ int main(int argc, char* argv[]) {
 			if (e.type == Event::Closed)
 				w->close();
 
-			// Aquí detectás el salto solo UNA VEZ por tecla presionada
+			// Detecto el salto solo UNA VEZ por tecla presionada
 			if (e.type == Event::KeyPressed && e.key.code == Keyboard::Space) {
-				if (nivelActual + 1 < totalNiveles) {
+				if (nivelActual + 1 < totalNiveles) { // Sin esto nos vamos del array. Todo explota. La economía colapsa.
 					nivelActual++;
 					characterAnim.setPosition(characterAnim.getPosition().x, groundLevels[nivelActual]);
 				}
