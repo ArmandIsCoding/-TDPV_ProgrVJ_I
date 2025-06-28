@@ -132,12 +132,16 @@
   <ItemGroup>
     <ClInclude Include="Afichmation.h" />
     <ClInclude Include="Animation.h" />
+    <ClInclude Include="Mario.h" />
+    <ClInclude Include="Shell.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Afichmation.cpp" />
     <ClCompile Include="Colas.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mario.cpp" />
     <ClCompile Include="Pilas.cpp" />
+    <ClCompile Include="Shell.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
