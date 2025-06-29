@@ -134,6 +134,7 @@
     <ClInclude Include="Animation.h" />
     <ClInclude Include="Mario.h" />
     <ClInclude Include="Shell.h" />
+    <ClInclude Include="SoundManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Afichmation.cpp" />
@@ -142,6 +143,7 @@
     <ClCompile Include="Mario.cpp" />
     <ClCompile Include="Pilas.cpp" />
     <ClCompile Include="Shell.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

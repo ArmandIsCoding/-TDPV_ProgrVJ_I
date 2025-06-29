@@ -22,6 +22,9 @@ public:
 		characterAnim.setPosition(startX, startY);
 	}
 
+	// Sé que arruino el encapsulamiento pero necesito saber si colisionan con Mario
+	Afichmation GetCharacterAnim() const { return characterAnim; }
+
 	void move(int deltaX) { // Los enemigos (caparazones) se mueven solo en X, no tienen jump
 		characterAnim.move(deltaX, 0);
 	}
